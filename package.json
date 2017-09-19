@@ -1,0 +1,26 @@
+{
+  "name": "unique-values",
+  "version": "1.0.0",
+  "description": "Get the unique values from array, objects etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfaf/unique-values.git"
+  },
+  "keywords": [
+    "unique values",
+    "get values",
+    "unique",
+    "array",
+    "object"
+  ],
+  "author": "Git Faf <git.faf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitfaf/unique-values/issues"
+  },
+  "homepage": "https://github.com/gitfaf/unique-values#readme"
+}
