@@ -1,4 +1,9 @@
 "use strict";
+var __spreadArray = (this && this.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 /** function getUniqueObjectValues(inObject)
  *
@@ -10,14 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * getUniqueObjectValues({'a': 12, 'b': 14, 'c': 14, 'd': 12}) => [12, 14]
  */
 function getUniqueObjectValues(inObject) {
-    var uniqueValues = [];
-    for (var _i = 0, _a = Object.values(inObject); _i < _a.length; _i++) {
-        var value = _a[_i];
-        if (uniqueValues.indexOf(value) < 0) {
-            uniqueValues.push(value);
-        }
-    }
-    return uniqueValues.sort(function (a, b) { return a - b; });
+    return __spreadArray([], Array.from(new Set(Object.values(inObject)))).sort(function (a, b) { return a - b; });
 }
 exports.default = getUniqueObjectValues;
 //# sourceMappingURL=uniqueObjectValues.js.map

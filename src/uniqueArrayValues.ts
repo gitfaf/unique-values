@@ -7,12 +7,7 @@
  *
  * getUniqueArrayValues([1, 2, 1, 2, 3, 4, 5, 10, 2, 3, 2, 3, 23, 2]) => [1, 2, 3, 4, 5, 10, 23]
  */
-export default function getUniqueArrayValues(inArray: any[]): any[] {
-    var uniqueValues = [];
-    for (const value of inArray) {
-        if (uniqueValues.indexOf(value) < 0) {
-            uniqueValues.push(value);
-        }
-    }
-    return uniqueValues.sort((a, b) => a - b);
+export default function getUniqueArrayValues(inArray: number[]): number[] {
+    const set = new Set(inArray);
+    return [...Array.from(set)].sort((a, b) => a - b);
 }

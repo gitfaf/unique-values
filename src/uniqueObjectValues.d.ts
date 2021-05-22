@@ -7,5 +7,5 @@
  *
  * getUniqueObjectValues({'a': 12, 'b': 14, 'c': 14, 'd': 12}) => [12, 14]
  */
-export default function getUniqueObjectValues(inObject: Object): any[];
+export default function getUniqueObjectValues(inObject: Object): number[];
 //# sourceMappingURL=uniqueObjectValues.d.ts.map

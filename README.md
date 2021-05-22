@@ -2,11 +2,29 @@
 
 Get the unique values from array, objects etc.
 
+## Changes
+
+### V2
+
+- typescript
+- dev dependencies
+
+### V3
+
+- Uses set instead of loop
+- returns only numbers
+- works on numbers
+
+### V1
+
+- still works.
+- no need to update your code base if you are using it.
+
 ## Usage
 
 ```bash
 
-    npm i -S unique-values
+    npm i unique-values
 
 ```
 

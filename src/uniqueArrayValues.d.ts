@@ -7,5 +7,5 @@
  *
  * getUniqueArrayValues([1, 2, 1, 2, 3, 4, 5, 10, 2, 3, 2, 3, 23, 2]) => [1, 2, 3, 4, 5, 10, 23]
  */
-export default function getUniqueArrayValues(inArray: any[]): any[];
+export default function getUniqueArrayValues(inArray: number[]): number[];
 //# sourceMappingURL=uniqueArrayValues.d.ts.map
