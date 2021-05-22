@@ -16,7 +16,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 function getUniqueArrayValues(inArray) {
     var set = new Set(inArray);
-    return __spreadArray([], Array.from(set)).sort(function (a, b) { return a - b; });
+    return __spreadArray([], Array.from(set));
 }
 exports.default = getUniqueArrayValues;
 //# sourceMappingURL=uniqueArrayValues.js.map

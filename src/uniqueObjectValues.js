@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * getUniqueObjectValues({'a': 12, 'b': 14, 'c': 14, 'd': 12}) => [12, 14]
  */
 function getUniqueObjectValues(inObject) {
-    return __spreadArray([], Array.from(new Set(Object.values(inObject)))).sort(function (a, b) { return a - b; });
+    return __spreadArray([], Array.from(new Set(Object.values(inObject))));
 }
 exports.default = getUniqueObjectValues;
 //# sourceMappingURL=uniqueObjectValues.js.map

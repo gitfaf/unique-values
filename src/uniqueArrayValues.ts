@@ -9,5 +9,5 @@
  */
 export default function getUniqueArrayValues(inArray: number[]): number[] {
     const set = new Set(inArray);
-    return [...Array.from(set)].sort((a, b) => a - b);
+    return [...Array.from(set)];
 }

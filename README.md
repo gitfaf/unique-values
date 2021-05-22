@@ -4,16 +4,20 @@ Get the unique values from array, objects etc.
 
 ## Changes
 
-### V2
+### V4
 
-- typescript
-- dev dependencies
+- sort removed from returned array. Sort yourself `.sort((a, b) => a - b)`
 
 ### V3
 
 - Uses set instead of loop
 - returns only numbers
 - works on numbers
+
+### V2
+
+- typescript
+- dev dependencies
 
 ### V1
 

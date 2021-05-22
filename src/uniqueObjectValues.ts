@@ -8,5 +8,5 @@
  * getUniqueObjectValues({'a': 12, 'b': 14, 'c': 14, 'd': 12}) => [12, 14]
  */
 export default function getUniqueObjectValues(inObject: Object): number[] {
-    return [...Array.from(new Set(Object.values(inObject)))].sort((a, b) => a - b);
+    return [...Array.from(new Set(Object.values(inObject)))];
 }
